@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #F2F2F2;
+    padding: 3px;
+ 
+ }
+ 
+body {
+     background-color: #373332;
+ }
+ 
+ion-icon {
+     font-size: xx-large;
+     color: #f9dede;
+ }
+
+ion-icon:hover {
+    color: #f03f2f;
+ }
+ 
+a {
+    color: #f9dede;
+}
+
+a:visited {
+    color:  #F2A766;
+}
+ 
+a:hover {
+    color: #f03f2f;;
+ }
+
+#kw40 span {
+    font-size: x-large;
+ }
+
+
+#kw40 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: large;
+    font-weight: bold; 
+ }
+
+ 
+#kw40 a:link {
+     border: 2px solid #8b3a32;
+     border-radius: 8px;
+     background-color: #836C5A;
+     margin: 2px;
+     color: #f9dede;
+ }
+ 
+#kw40 a:visited {
+    color: #f03f2f;
+     border: #F2A766;
+ }
+
+#kw40 a:hover {
+     color: #f03f2f;
+     background-color: #F2A766;
+     box-shadow: 0 0 10 px #F2A766;
+ } 
+
+header,footer {
+     background-color:  #615348;
+
+ }
+ 
+h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: xx-large;
+    text-align: right;
+    color: #f03f2f;
+ }
+ 
+h2 {
+    display: inline-block;
+    margin-top: 45px;
+    margin-bottom: 0px;
+    margin-left: 60px;
+    color: #f03f2f;
+}
+
+h3 {
+    margin-left: 60px;
+}
+ 
+p {
+    margin-left: 60px;
+    margin-right: 60px;
+    line-height: 145%;
+    text-align: justify;
+ }
+
+.form {
+    margin-left: 60px;
+    margin-right: 390px;
+    border: 3px solid #d54723;
+    border-radius: 5px;
+    background-color: #F2A766;
+}
+
+
+.form a:link {
+    color: #f9dede;
+}
+.form a:visited {
+    color: #f03f2f;
+}
+
+.form a:hover {
+    box-shadow:  0 0 10px #8b3a32;
+}
+
+label,input {
+    color: #f03f2f;
+    margin-left: 56px ;
+} 
+
+p :nth-of-type(3) {
+    color: #f03f2f;
+    margin-left: 0px;
+}
+
+input {
+    border: 2px solid #f03f2f;
+    border-radius: 3px;
+    background-color: #f9dede;
+}
+
+textarea {
+    margin-left: 56px;
+}
+
+input, select, textarea {
+	font-size: inherit;
+	font-family: inherit;
+    color: #373332;
+    background-color: #F2F2F2;
+}	
+
+.demoform input[type="text"],
+.demoform input[type="email"],
+.demoform textarea { 
+  width: 100%; min-width: 100%; 
+  box-sizing: border-box;
+  padding: 4px;
+  outline: none;
+}
+
+input[type="submit"] {
+    font-family: sans-serif;
+    color: #f03f2f;
+ }
+
+li {
+    margin-left: 60px;
+    margin-right: 60px;
+} 
+
+footer {
+     bottom: 0px;
+     position:fixed;
+ }
+
+
+
