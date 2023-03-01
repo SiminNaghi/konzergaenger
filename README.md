@@ -1,16 +1,16 @@
 # konzertgaenger
 
-## responsiveness 
+## responsiveness -
 
-## responsive navigation
+## responsive navigation -
 
 ## navigation animieren
 
-## farben
+## farben -
 
 ## aus box-model, flex-box machen
 
-## artist-site wird zu grid mit cards
+## artist-site wird zu grid mit cards -
 
 ## fremde links mit target-blanks versehen
 
@@ -18,6 +18,17 @@
 
 ## formulare überarbeiten -> home button
 
-## logo
+## logo -
 
 ## slogan->banner
+
+## Lili
+- 'farbe'
+- 'logo'
+
+## Pemo 
+- 'resposive'
+- 'responsive navigation'
+
+## Simin
+- 'artist-site wird zu grid mit cards'
