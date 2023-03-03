@@ -1,0 +1,21 @@
+/* Path: proyect_class\konzergaenger\css\wann.css */
+.inhalt {
+  margin : 1%;
+  display: flex;
+  gap: 2em;
+}
+.inhalt table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.inhalt table td {
+  border: 1px solid #000;
+  padding: 0.5em;
+}
+.inhalt table th {
+  color: #000;
+  font-size: 1.4vw;
+}
+.inhalt table tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}

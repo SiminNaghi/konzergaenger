@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/day.css" />
+    <link rel="stylesheet" href="./css/map.css">
+  <script type="module" src="./Assets/JS/map.js"></script>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap" async defer></script>
+    <title>Konzertgänger</title>
+  </head>
+  <body>
+    <header>
+      <section id="mainnav">
+        <nav>
+          <a href="./index.html" aria-label="Home" > 
+            <ion-icon name="home-outline"></ion-icon></a>
+          <a href="./wo.html" aria-label="location"> 
+            <ion-icon name="location-outline"></ion-icon></a>
+          <a href="./wann.html" aria-label="Calendar">
+            <ion-icon name="calendar-outline"></ion-icon
+          ></a>
+        </nav>
+      </section>
+      <h1 class="logo">KONZERT<br />GANGER</h1>
+      <section id="kw40">
+        <nav>
+          <span>BERLIN KW40</span>
+          <a href="#Mo, 03.10.22">Mo, 03.10.22</a>
+          <a href="#Di, 04.10.22">Di, 04.10.22</a>
+          <a href="#Mi, 05.10.22">Mi, 05.10.22</a>
+          <a href="./day.html">Day</a>
+          <a href="#Fr, 07.10.22">Fr, 07.10.22</a>
+          <a href="#Sa, 08.10.22">Sa, 08.10.22</a>
+          <a href="#So, 09.10.22">So, 09.10.22</a>
+        </nav>
+      </section>
+    </header>
+    <section>
+      <h3>Karate zum KONZERT</h3>
+      <!--The div element for the map -->
+      <div id="map"></div>
+    </section>
+    <footer>
+      <span>&copy; 2022</span>
+      <a href="./impressum.html">Impressum</a>
+      <a href="./datenschutz.html">Datenschutz</a>
+      <a href="./newsletter.html">Newsletter</a>
+      <a href="./kontakt.html">Kontakt</a>
+    </footer>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
