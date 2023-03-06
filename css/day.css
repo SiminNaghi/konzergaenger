@@ -25,7 +25,7 @@
     align-items: center;
     justify-content: center;
  }
-
+ 
 ion-icon {
      font-size: xx-large;
      color: #f9dede;
@@ -34,6 +34,18 @@ ion-icon {
 ion-icon:hover {
     color: #f03f2f;
  }
+
+a {
+    color: #f9dede;
+}
+
+a:visited {
+    color: #F2A766;
+}
+
+a:hover {
+    color: #f03f2f;
+}
 
 #kw40 {
     margin-top: 0px;
@@ -55,7 +67,7 @@ ion-icon:hover {
  }
  
 #kw40 a:visited {
-    color: #F2F2F2;
+    color: #f03f2f;
     border: #F2A766;
  }
 
@@ -67,22 +79,18 @@ ion-icon:hover {
  
  
 header,footer {
-     background-color:  rgb(37, 77, 50);
+     background-color:  #615348;
  }
-
-
-footer {
-    bottom: 0;
-    position: relative;
+ 
+h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: xx-large;
+    text-align: right;
+    color: #f03f2f;
  }
-
-header {
-    height: 20vh;
- }
- .card{
-    width: 300px;
-    height: 300px;
-    margin: 10px;
+ 
+h2 {
     display: inline-block;
     background-color: #373332;
     border: 2px solid #8b3a32;
@@ -109,6 +117,10 @@ header {
     z-index: 2;
     bottom: 40px;
  }
- .card a {
-    text-decoration: none;
+  
+footer {
+    bottom: 0;
+    position:fixed;
  }
+ 
+ 
