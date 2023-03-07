@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="de">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,17 +8,19 @@
     <title>Konzertgänger</title>
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/kontakt.css">
+
 </head>
+
 <body>
-    <header > 
+    <header>
         <section id="mainnav">
-        <nav>
-            <a href="./index.html"><ion-icon name="home-outline"></ion-icon></a>
-            <a href="wo"><ion-icon name="location-outline"></ion-icon></a>
-            <a href="wann"><ion-icon name="calendar-outline"></ion-icon></a>
-        </nav>
+            <nav>
+                <a href="./index.html"><ion-icon name="home-outline"></ion-icon></a>
+                <a href="wo"><ion-icon name="location-outline"></ion-icon></a>
+                <a href="wann"><ion-icon name="calendar-outline"></ion-icon></a>
+            </nav>
         </section>
-        
+
         <h1>KONZERTGÄNGER</h1>
         <section id="kw40">
             <nav>
@@ -32,47 +35,49 @@
             </nav>
         </section>
 
-        
+
 
     </header>
     <main>
         <h2>Hilf uns, besser zu werden!</h2>
-        <p> Wir freuen wir uns über Mitteilungen, Hinweise, Lob, Kritik und Fragen von dir:</p> 
-        
+        <p> Wir freuen wir uns über Mitteilungen, Hinweise, Lob, Kritik und Fragen von dir:</p>
 
-        <section class="form">
-            <!-- Eigentlich <form action="mailto:mailto@konzertgaenger.de" method="post">-->
-            <!--Folgendes nur für den Vorführeffekt  -->
-            <form action="./danke.html" method="get">
+
+
+        <!-- Eigentlich <form action="mailto:mailto@konzertgaenger.de" method="post">-->
+        <!--Folgendes nur für den Vorführeffekt  -->
+        <form class="form" action="./danke.html" method="get">
             <p>Wenn du eine Rückmeldung haben möchtest, hinterlass und bitte deine E-Mail-Adresse:</p>
-            <br>
-            <label for="check">Ich habe die <a href="./datenschutz.html">Datenschutzbestimmungen</a>gelesen und 
-            akzeptiert. *</label>
-            <input type="checkbox" id="check">
-            <br><br>
+
+            <div>
+                <label for="check">Ich habe die
+                    <a href="./datenschutz.html">Datenschutzbestimmungen</a> gelesen und
+                    akzeptiert. *</label>
+                <input type="checkbox" id="check" />
+            </div>
+
             <label for="email"> Deine E-Mail-Adresse</label>
             <input type="email" id="email">
-            <br><br>
-            <textarea id="mitteilung" cols="80" rows="18"></textarea>
+
+            <textarea id="mitteilung"></textarea>
             <input type="submit" value="absenden">
-            <br><br>
-        </section>
-        <br><br><br>
+
+
 
     </main>
-        
-    
+
+
     <footer>
         <span>© 2022</span>
         <a href="./impressum.html">Impressum</a>
         <a href="./datenschutz.html">Datenschutz</a>
-        <a href="./newsletter.html">Newsletter</a>        
+        <a href="./newsletter.html">Newsletter</a>
         <a href="./kontakt.html">Kontakt</a>
     </footer>
-    
+
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-   
+
 </body>
 
 </html>
