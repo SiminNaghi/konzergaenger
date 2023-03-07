@@ -66,17 +66,18 @@ a:hover {
      color: #f9dede;
  }
  
-#kw40 a:visited {
-    color: #f03f2f;
-    border: #F2A766;
+body {
+     background-color: #190124;
  }
-
-#kw40 a:hover {
-    color: #f03f2f;
-    background-color: #F2A766;
-    box-shadow: 0 0 10px #F2A766;
-}
  
+.ticker {
+    color: #f9dede;
+    background-color: #230033;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    padding: .3rem;
+}
  
 header,footer {
      background-color:  #615348;
