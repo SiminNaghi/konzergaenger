@@ -2,40 +2,48 @@ body {
     background-color: #190124;
 }
 
-.ticker {
-    color: #f9dede;
+header {
     background-color: #230033;
-    text-align: center;
-    font-size: 1.2rem;
-    margin-top: 2rem;
-    padding: .3rem;
+}
+
+main {
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 4em;
+    gap: 3em;
+
 }
 
 h2 {
-    display: inline-block;
-    margin-top: 45px;
-    margin-bottom: 0px;
-    margin-left: 60px;
+    text-align: center;
+
     color: #f03f2f;
 }
 
 h3 {
     margin-left: 60px;
+
 }
 
 p {
-    margin-left: 60px;
-    margin-right: 60px;
-    line-height: 145%;
-    text-align: justify;
+
+    text-align: center;
+    line-height: 100%;
+    max-width: 870px;
+
+
 }
 
 .form {
-    margin-left: 60px;
-    margin-right: 390px;
+    display: flex;
+    flex-direction: column;
+    width: 65vw;
     border: 3px solid #d54723;
     border-radius: 5px;
     background-color: #F2A766;
+    gap: 10px;
 }
 
 
@@ -44,17 +52,17 @@ p {
 }
 
 .form a:visited {
-    color: #f03f2f;
+    color: #f9dede;
 }
 
 .form a:hover {
-    box-shadow: 0 0 10px #8b3a32;
+    box-shadow: 0 0 10px #f9dede;
 }
 
 label,
 input {
+    display: inline;
     color: #f03f2f;
-    margin-left: 56px;
 }
 
 p :nth-of-type(3) {
@@ -66,10 +74,15 @@ input {
     border: 2px solid #f03f2f;
     border-radius: 3px;
     background-color: #f9dede;
+    /* width: 50%; */
+}
+
+.text {
+    width: 50%;
 }
 
 textarea {
-    margin-left: 56px;
+    margin-left: 10px;
 }
 
 input,
