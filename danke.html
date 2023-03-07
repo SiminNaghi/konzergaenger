@@ -1,62 +1,93 @@
 <!DOCTYPE html>
 <html lang="de">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Konzertgänger</title>
-    <link rel="stylesheet" href="./css/header.css">
-</head>
-<body>
-    <header > 
-        <section id="mainnav">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KONZERTGÄNGER.IN</title>
+
+    <link rel="stylesheet" href="./assets/slick/slick.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+  </head>
+  <body>
+    <header>
+      <section id="mainnav">
         <nav>
-            <a href="./index.html"><ion-icon name="home-outline"></ion-icon></a>
-             <a href="wo"><ion-icon name="location-outline"></ion-icon></a>
-            <a href="wann"><ion-icon name="calendar-outline"></ion-icon></a>
+          <a href="./day.html"><ion-icon name="home-outline"></ion-icon></a>
+          <a href="wo"><ion-icon name="location-outline"></ion-icon></a>
+          <a href="wann"><ion-icon name="calendar-outline"></ion-icon></a>
         </nav>
-        </section>
-        
-        <h1>KONZERTGÄNGER</h1>
-        <section id="kw40">
-            <nav>
-                <span>BERLIN KW40</span>
-                <a href="#Mo, 03.10.22">Mo, 03.10.22</a>
-                <a href="#Di, 04.10.22">Di, 04.10.22</a>
-                <a href="#Mi, 05.10.22">Mi, 05.10.22</a>
-                <a href="./day.html">Do, 06.10.22</a>
-                <a href="#Fr, 07.10.22">Fr, 07.10.22</a>
-                <a href="#Sa, 08.10.22">Sa, 08.10.22</a>
-                <a href="#So, 09.10.22">So, 09.10.22</a>
-            </nav>
-        </section>
+      </section>
 
-        
-
+      <h1>KONZERTGÄNGER.IN</h1>
+      <section id="kw40">
+        <nav>
+          <span>BERLIN</span>
+          <a href="./day.html">Mo, 13.03.23</a>
+          <a href="./day.html">Di, 14.03.23</a>
+          <a href="./day.html">Mi, 15.03.23</a>
+          <a href="./day.html">Do, 16.03.23</a>
+          <a href="./day.html">Fr, 17.03.23</a>
+          <a href="./day.html">Sa, 18.03.23</a>
+          <a href="./day.html">So, 19.03.23</a>
+        </nav>
+      </section>
     </header>
+
+    <section class="ticker">
+      <div>FÜR KONZERTGÄNGER*INNEN,</div>
+      <div>FÜR FRONTROW-RENNER*INNEN,</div>
+      <div>FÜR MITSÄNGER*INNEN,</div>
+      <div>FÜR HEADBANGER*INNEN,</div>
+      <div>FÜR MERCH-FÄNGER*INNEN,</div>
+      <div>UND AM HANDY-HÄNGER*INNEN.</div>
+    </section>
+
     <main>
-        <h2>Hilf uns, besser zu werden!</h2>
-        <p> Wir freuen wir uns über Mitteilungen, Hinweise, Lob, Kritik und Fragen von dir:</p> 
+      <h2>Hilf uns, besser zu werden!</h2>
+      <p>
+        Wir freuen wir uns über Mitteilungen, Hinweise, Lob, Kritik und Fragen
+        von dir:
+      </p>
 
-        <section class="form">
-           <h2>Danke für deinen Input!</h2>
-           <br><br><br>
-        </section>
-
+      <section class="form">
+        <h2>Danke für deinen Input!</h2>
+        <br /><br /><br />
+      </section>
     </main>
-        
-    
-<footer>
-    <span>© 2022</span>
-    <a href="./impressum.html">Impressum</a>
-    <a href="./datenschutz.html">Datenschutz</a>
-    <a href="./newsletter.html">Newsletter</a>        
-    <a href="./kontakt.html">Kontakt</a>
-</footer>
-    
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-   
-</body>
 
+    <footer>
+      <span>© 2023</span>
+      <a href="./impressum.html">Impressum</a>
+      <a href="./datenschutz.html">Datenschutz</a>
+      <a href="./newsletter.html">Newsletter</a>
+      <a href="./kontakt.html">Kontakt</a>
+    </footer>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script src="./assets/slick/slick.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".ticker").slick({
+          autoplay: true,
+          arrows: false,
+        });
+      });
+    </script>
+  </body>
 </html>

@@ -1,18 +1,24 @@
 * {
     box-sizing: border-box;
-    font-family: sans-serif;
-    color: #F2F2F2;
-    padding: 3px;
- 
- }
- 
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family:'Trebuchet MS', sans-serif;
+    color: white;
+}
+
 body {
-     background-color: #373332;
- }
+    width: 100%;
+    background-color: #190124;
+    padding: 1rem;
+}
  
 ion-icon {
      font-size: xx-large;
      color: #f9dede;
+     transition: .5s;
  }
 
 ion-icon:hover {
@@ -20,11 +26,16 @@ ion-icon:hover {
  }
  
 a {
+    color: #F2A766;
+    transition: .3s;
+}
+
+span {
     color: #f9dede;
 }
 
 a:visited {
-    color:  #F2A766;
+    color:  #f9dede;
 }
  
 a:hover {
@@ -35,62 +46,72 @@ a:hover {
     font-size: x-large;
  }
 
-
 #kw40 {
-    margin-top: 0px;
-    margin-bottom: 0px;
     font-size: large;
     font-weight: bold; 
  }
 
- 
+#kw40>nav {
+     display: flex;
+     flex-direction: column;
+ }
+
+#kw40 a {
+     text-decoration: none;
+     padding: .3rem;
+ }
+
 #kw40 a:link {
-     border: 2px solid #8b3a32;
-     border-radius: 8px;
-     background-color: #836C5A;
-     margin: 2px;
-     color: #f9dede;
+    border-radius: 8px;
+    background-color: #f9dede;
+    margin: .3rem;
+    color: #f03f2f;
  }
  
 #kw40 a:visited {
-    color: #f03f2f;
-     border: #F2A766;
+    color: #190124;
  }
 
 #kw40 a:hover {
-     color: #f03f2f;
-     background-color: #F2A766;
-     box-shadow: 0 0 10 px #F2A766;
+    color: #f9dede;
+    background-color: #f03f2f;
+    box-shadow: 0 0 5px #f03f2f;
  } 
 
 header,footer {
-     background-color:  #615348;
-
+    width: 100%;
+    background-color:  #230033;
  }
  
 h1 {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    font-size: xx-large;
-    text-align: right;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
     color: #f03f2f;
+    text-shadow: 1px 1px 1px #f77d72;
+ }
+
+.ticker {
+     color: #f9dede;
+     background-color: #230033;
+     text-align: center;
+     font-size: 1.2rem;
+     margin-top: 2rem;
+     padding: .3rem;
+ }
+main {
+    overflow: hidden;
  }
  
 h2 {
     display: inline-block;
     margin-top: 45px;
-    margin-bottom: 0px;
-    margin-left: 60px;
     color: #f03f2f;
 }
 
-h3 {
-    margin-left: 60px;
-}
+
  
 p {
-    margin-left: 60px;
-    margin-right: 60px;
+   
     line-height: 145%;
     text-align: justify;
  }
@@ -102,7 +123,6 @@ p {
     border-radius: 5px;
     background-color: #F2A766;
 }
-
 
 .form a:link {
     color: #f9dede;
@@ -120,9 +140,13 @@ label,input {
     margin-left: 56px ;
 } 
 
-p :nth-of-type(3) {
+p:nth-of-type(3) {
     color: #f03f2f;
-    margin-left: 0px;
+}
+
+a[href=".html"] {
+    
+    overflow: hidden;
 }
 
 input {
@@ -156,15 +180,16 @@ input[type="submit"] {
     color: #f03f2f;
  }
 
-li {
-    margin-left: 60px;
-    margin-right: 60px;
-} 
+ 
 
 footer {
-     bottom: 0px;
-     position:fixed;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
  }
+
+
+
 
 
 
