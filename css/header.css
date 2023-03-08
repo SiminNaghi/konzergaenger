@@ -42,7 +42,7 @@ a:hover {
     color: #f03f2f;
 }
 
-#kw40 span {
+#kw40 .button {
     font-size: x-large;
 }
 
@@ -56,23 +56,23 @@ a:hover {
     flex-direction: column;
 }
 
-#kw40 a {
+#kw40 span a {
     text-decoration: none;
     padding: .3rem;
 }
 
-#kw40 a:link {
+#kw40 span a:link {
     border-radius: 8px;
     background-color: #f9dede;
     margin: .3rem;
     color: #f03f2f;
 }
 
-#kw40 a:visited {
+#kw40 span a:visited {
     color: #190124;
 }
 
-#kw40 a:hover {
+#kw40 span a:hover {
     background-color: #f03f2f;
     color: #f9dede;
     box-shadow: 0 0 5px #f03f2f;
@@ -94,7 +94,7 @@ h1 {
 
 footer {
     text-align: center;
-    position: fixed;
+    position: relative;
     bottom: 0;
 }
 
@@ -105,4 +105,39 @@ footer>a {
 
 footer>span {
     font-size: .8rem;
+}
+@media (min-width: 1051px) {
+    .mainnav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        gap: 1em;
+        margin: 2em;
+    }
+    #kw40 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #kw40>nav span {
+        flex-direction: row;
+        justify-content: space-between;
+        width: max-content;
+        gap: 1em;
+        margin-bottom: 2em;
+    }
+    #kw40 nav span a {
+        margin: 0;
+        width: max-content;
+    }
+    #kw40 a:link {
+        margin: 0;
+    }
+    #kw40 a:visited {
+        margin: 0;
+    }
+    #kw40 a:hover {
+        margin: 0;
+    }
 }

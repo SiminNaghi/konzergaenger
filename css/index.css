@@ -1,9 +1,3 @@
-* {
-    box-sizing: border-box;
-    font-family: sans-serif;
-    color: #F2F2F2;
-    padding: 0;
- }
  @font-face {
     font-family: "RocknRollOne";
     src: url("../../konzergaenger/Assets/Fonts/KnifeMetalGrunge.ttf");
@@ -16,69 +10,7 @@
     font-family: "RocknRollthree";
     src: url(./../Assets/Fonts/Serialpublication.ttf);
 }
- .artists{
-    margin-top: 5%;
-    margin-bottom: 5%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
- }
 
-ion-icon {
-     font-size: xx-large;
-     color: #f9dede;
- }
-
-ion-icon:hover {
-    color: #f03f2f;
- }
-
-#kw40 {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    font-size: large;
-    font-weight: bold; 
-     }
-
-#kw40 span {
-        font-size: x-large;
-     }
-     
-#kw40 a:link {
-     border: 2px solid #8b3a32;
-     border-radius: 8px;
-     background-color: #836C5A;
-     margin: 2px;
-     color: #f9dede;
- }
- 
-#kw40 a:visited {
-    color: #F2F2F2;
-    border: #F2A766;
- }
-
-#kw40 a:hover {
-    color: #f03f2f;
-    background-color: #F2A766;
-    box-shadow: 0 0 10px #F2A766;
-}
- 
- 
-header,footer {
-     background-color:  rgb(37, 77, 50);
- }
-
-
-footer {
-    bottom: 0;
-    position: relative;
- }
-
-header {
-    height: 20vh;
- }
  .card{
     width: 300px;
     height: 300px;
