@@ -114,7 +114,6 @@ main {
 
 h2 {
     text-align: center;
-
     color: #f03f2f;
 }
 
@@ -128,6 +127,7 @@ p {
     text-align: center;
     line-height: 100%;
     max-width: 870px;
+    padding-top: 5px;
 
 
 }
@@ -139,6 +139,9 @@ p {
     border: 3px solid #d54723;
     border-radius: 5px;
     background-color: #F2A766;
+    align-items: center;
+    padding: 10px;
+
 }
 
 

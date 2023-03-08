@@ -9,8 +9,9 @@ header {
 main {
 
     display: flex;
-    align-items: center;
     flex-direction: column;
+    align-items: center;
+
     margin-top: 4em;
     gap: 3em;
 
@@ -32,6 +33,7 @@ p {
     text-align: center;
     line-height: 100%;
     max-width: 870px;
+    padding: 10px;
 
 
 }
@@ -39,6 +41,7 @@ p {
 .form {
     display: flex;
     flex-direction: column;
+
     width: 65vw;
     border: 3px solid #d54723;
     border-radius: 5px;
@@ -112,4 +115,12 @@ input[type="submit"] {
 li {
     margin-left: 60px;
     margin-right: 60px;
+}
+
+.email {
+    padding-top: 10px;
+}
+
+.danke {
+    padding: 10px;
 }

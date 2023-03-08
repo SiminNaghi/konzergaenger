@@ -1,60 +1,62 @@
 <!DOCTYPE html>
 <html lang="de">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>KONZERTGÄNGER.IN</title>
 
-    <link rel="stylesheet" href="./assets/slick/slick.css" />
-    <link rel="stylesheet" href="./css/header.css" />
-    <link rel="stylesheet" href="./css/newsletter.css" />
-  </head>
-  <body>
-    <header>
-      <section id="mainnav">
-        <nav>
-          <a href="./day.html"><ion-icon name="home-outline"></ion-icon></a>
-          <a href="wo"><ion-icon name="location-outline"></ion-icon></a>
-          <a href="wann"><ion-icon name="calendar-outline"></ion-icon></a>
-        </nav>
-      </section>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KONZERTGÄNGER.IN</title>
 
-      <h1>KONZERTGÄNGER.IN</h1>
-      <section id="kw40">
-        <nav>
-          <span>BERLIN</span>
-          <a href="./day.html">Mo, 13.03.23</a>
-          <a href="./day.html">Di, 14.03.23</a>
-          <a href="./day.html">Mi, 15.03.23</a>
-          <a href="./day.html">Do, 16.03.23</a>
-          <a href="./day.html">Fr, 17.03.23</a>
-          <a href="./day.html">Sa, 18.03.23</a>
-          <a href="./day.html">So, 19.03.23</a>
-        </nav>
-      </section>
-    </header>
+  <link rel="stylesheet" href="./assets/slick/slick.css" />
+  <link rel="stylesheet" href="./css/header.css" />
+  <link rel="stylesheet" href="./css/newsletter.css" />
+</head>
 
-    <section class="ticker">
-      <div>FÜR KONZERTGÄNGER*INNEN,</div>
-      <div>FÜR FRONTROW-RENNER*INNEN,</div>
-      <div>FÜR MITSÄNGER*INNEN,</div>
-      <div>FÜR HEADBANGER*INNEN,</div>
-      <div>FÜR MERCH-FÄNGER*INNEN,</div>
-      <div>UND AM HANDY-HÄNGER*INNEN.</div>
+<body>
+  <header>
+    <section id="mainnav">
+      <nav>
+        <a href="./day.html"><ion-icon name="home-outline"></ion-icon></a>
+        <a href="wo"><ion-icon name="location-outline"></ion-icon></a>
+        <a href="wann"><ion-icon name="calendar-outline"></ion-icon></a>
+      </nav>
     </section>
 
-    <main>
-      <h2>Unser Newsletter für Konzertgänger-Insider</h2>
-      <p>
-        Du erhälst neben Insiderinterviews auch regelmäßig Ticketverlosungen und
-        Hinweise zu Überraschungsgigs.
-      </p>
-      <p>Der Konzertgänger-Newsletter erscheint alle 14 Tage.</p>
+    <h1>KONZERTGÄNGER.IN</h1>
+    <section id="kw40">
+      <nav>
+        <span>BERLIN</span>
+        <a href="./day.html">Mo, 13.03.23</a>
+        <a href="./day.html">Di, 14.03.23</a>
+        <a href="./day.html">Mi, 15.03.23</a>
+        <a href="./day.html">Do, 16.03.23</a>
+        <a href="./day.html">Fr, 17.03.23</a>
+        <a href="./day.html">Sa, 18.03.23</a>
+        <a href="./day.html">So, 19.03.23</a>
+      </nav>
+    </section>
+  </header>
+
+  <section class="ticker">
+    <div>FÜR KONZERTGÄNGER*INNEN,</div>
+    <div>FÜR FRONTROW-RENNER*INNEN,</div>
+    <div>FÜR MITSÄNGER*INNEN,</div>
+    <div>FÜR HEADBANGER*INNEN,</div>
+    <div>FÜR MERCH-FÄNGER*INNEN,</div>
+    <div>UND AM HANDY-HÄNGER*INNEN.</div>
+  </section>
+
+  <main>
+    <h2>Unser Newsletter für Konzertgänger-Insider</h2>
+    <p>
+      Du erhälst neben Insiderinterviews auch regelmäßig Ticketverlosungen und
+      Hinweise zu Überraschungsgigs.
+    </p>
+    <p>Der Konzertgänger-Newsletter erscheint alle 14 Tage.</p>
 
 
     <form class="form" action="./abonnent.html" method="get">
-      <label for="email">Deine E-Mail-Adresse</label>
+      <label class="email" for="email">Deine E-Mail-Adresse</label>
       <input class="text" type="email" id="email" />
 
 
@@ -62,7 +64,7 @@
         <label for="check">Ich habe die
           <a href="./datenschutz.html">Datenschutzbestimmungen</a> gelesen und
           akzeptiert. *</label>
-        <input type="checkbox" id="check" />
+        <input type="checkbox" id="check" required />
       </div>
 
       <input class="text" type="submit" value="Zum Newsletter anmelden" />
@@ -71,38 +73,27 @@
 
   </main>
 
-    <footer>
-      <span>© 2023</span>
-      <a href="./impressum.html">Impressum</a>
-      <a href="./datenschutz.html">Datenschutz</a>
-      <a href="./newsletter.html">Newsletter</a>
-      <a href="./kontakt.html">Kontakt</a>
-    </footer>
+  <footer>
+    <span>© 2023</span>
+    <a href="./impressum.html">Impressum</a>
+    <a href="./datenschutz.html">Datenschutz</a>
+    <a href="./newsletter.html">Newsletter</a>
+    <a href="./kontakt.html">Kontakt</a>
+  </footer>
 
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="//code.jquery.com/jquery-1.11.0.min.js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
-    ></script>
-    <script src="./assets/slick/slick.min.js"></script>
-    <script>
-      $(document).ready(function () {
-        $(".ticker").slick({
-          autoplay: true,
-          arrows: false,
-        });
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script src="./assets/slick/slick.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $(".ticker").slick({
+        autoplay: true,
+        arrows: false,
       });
-    </script>
-  </body>
+    });
+  </script>
+</body>
+
 </html>
