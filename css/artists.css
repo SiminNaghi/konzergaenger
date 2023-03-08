@@ -1,0 +1,86 @@
+
+
+header h1 span {
+    font-size: 1.5em;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin: 0 0 0 0.5em;
+    display: block;
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding: 0.5em 0 0 0;
+}
+main{
+    max-width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 20vh 1fr  30vh; 
+    grid-gap: 1em;
+    grid-template-areas: "tittle tittle tittle tittle"
+                         "info info img img"
+                         "info info img img"
+                         "media media media media";
+}
+.img{
+    grid-area: img;
+}
+.title{
+  grid-area: tittle;
+    font-size: 1.5em;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin: 0 0 0 0.5em;
+    display: block;
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding: 0.5em 0 0 0;
+}
+.info{
+  grid-area: info;
+    font-size: 1.5em;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin: 0 0 0 0.5em;
+    display: block;
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding: 0.5em 0 0 0;
+}
+.media{
+ grid-area: media;
+ font-size: 1em;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+a {
+    color: #61eb0bb8;
+    text-decoration: none;
+}
+@media (max-width: 800px) {
+    main{
+        width: 100vw;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 22vh 400px 1fr 1fr;
+        grid-template-areas: "tittle tittle"
+                             "img img"
+                             "info info"
+                             "media media";
+
+    }
+    img{
+        width: 400px;
+        height: 400px;
+    }
+}
