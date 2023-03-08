@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/header.css" />
     <link rel="stylesheet" href="./css/wann.css"/>
-    <link rel="stylesheet" href="" />
-    <title>Konzertgänger</title>
+    <link rel="stylesheet" href="./assets/slick/slick.css" />
+    <title>KONZERTGÄNGER.IN</title>
   </head>
   <body>
     <header>
@@ -34,6 +34,16 @@
         </section>
       </header>
     </header>
+
+     <section class="ticker">
+      <div>FÜR KONZERTGÄNGER*INNEN,</div>
+      <div>FÜR FRONTROW-RENNER*INNEN,</div>
+      <div>FÜR MITSÄNGER*INNEN,</div>
+      <div>FÜR HEADBANGER*INNEN,</div>
+      <div>FÜR MERCH-FÄNGER*INNEN,</div>
+      <div>UND AM HANDY-HÄNGER*INNEN.</div>
+    </section>
+
     <section class="inhalt">
     <table>
       <tr>
@@ -120,7 +130,7 @@
     
     </section>
     <footer>
-      <span>© 2022</span>
+      <span>© 2023</span>
       <a href="./impressum.html">Impressum</a>
       <a href="./datenschutz.html">Datenschutz</a>
       <a href="./newsletter.html">Newsletter</a>
@@ -136,5 +146,22 @@
       nomodule
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script src="./assets/slick/slick.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".ticker").slick({
+          autoplay: true,
+          arrows: false,
+        });
+      });
+    </script>
   </body>
 </html>
