@@ -44,6 +44,11 @@ a:hover {
 
 #kw40 .button {
     font-size: x-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #f03f2f;
+    border-radius: 10px;
 }
 
 #kw40 {
@@ -51,9 +56,12 @@ a:hover {
     font-weight: bold;
 }
 
-#kw40>nav {
+#kw40 nav .content {
     display: flex;
     flex-direction: column;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.2s ease-out;
 }
 
 #kw40 span a {
@@ -113,7 +121,12 @@ footer>a {
 footer>span {
     font-size: .8rem;
 }
-
+.artists {
+    width: 100vw;
+}
+main h2{
+    margin-left: 5vw;
+}
 @media (min-width: 1051px) {
 
     h1 {
@@ -121,40 +134,37 @@ footer>span {
         margin-right: 1rem;
     }
 
-    .mainnav {
+    #kw40 nav  .content {
+        flex-direction: row;
+        height: auto;
+        max-height: none;
+    }
+    #kw40 nav  {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
-        width: 100%;
-        gap: 1em;
-        margin: 2em;
+        gap: 0.5rem;
+        align-items: baseline;
+    }
+   #kw40 nav .button{
+    border: none;
+    margin-bottom: 2em;
+   }
+    #kw40 nav .button:hover{
+     background-color: #f03f2f;
+     color: #f9dede;
+     box-shadow: 0 0 5px #f03f2f;
     }
 
-    #kw40 {
+
+
+}
+
+@media (max-width: 644px) {
+    .artists {
+        justify-content: center;
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-    #kw40>nav span {
-        flex-direction: row;
-        justify-content: space-between;
-        width: max-content;
-        gap: 1em;
-        margin-bottom: 2em;
-    }
-
-    #kw40 nav span a {
-        margin: 0;
-        width: max-content;
-    }
-
-    #kw40 a:link {
-        margin: 0;
-    }
-
-    #kw40 a:visited {
-        margin: 0;
+        flex-direction: column;
+        align-items: center;
     }
 
     #kw40 a:hover {
