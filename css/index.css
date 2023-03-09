@@ -1,41 +1,42 @@
  @font-face {
     font-family: "RocknRollOne";
     src: url("../../konzergaenger/Assets/Fonts/KnifeMetalGrunge.ttf");
-  }
-@font-face {
+ }
+
+ @font-face {
     font-family: "RocknRolltwo";
     src: url(./../Assets/Fonts/LudovicusIi.ttf);
-}
-@font-face {
+ }
+
+ @font-face {
     font-family: "RocknRollthree";
     src: url(./../Assets/Fonts/Serialpublication.ttf);
-}
+ }
 
-.artists {
-   width: 90%;
-   margin: auto;
-}
+ .artists {
+    width: 90%;
+    margin: auto;
+ }
 
-.artists {
-   margin-top: 5%;
-   margin-bottom: 5%;
-   display: flex;
-   flex-direction: row;
-   flex-wrap: wrap;
-   align-items: center;
-   justify-content: center;
-}
+ .artists {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+ }
 
-h2 {
-   color: #f03f2f;
-   font-weight:;
-   line-height: 1.5rem;
-   margin-top: 3rem;
-   margin-bottom: 1rem;
-   text-align: center;
-}
+ h2 {
+    color: #f03f2f;
+    line-height: 1.5rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    text-align: center;
+ }
 
-.card{
+ .card {
     width: 300px;
     height: 300px;
     margin: 10px;
@@ -49,18 +50,18 @@ h2 {
     content: "";
  }
 
-.card img {
+ .card img {
     width: 100%;
     height: 100%;
     border-radius: 8px;
     box-shadow: 0 0 10px #8b3a32;
  }
 
-.card:hover {
-   box-shadow: 0 0 20px #f03f2f;
+ .card:hover {
+    box-shadow: 0 0 20px #f03f2f;
  }
 
-.card h3 {
+ .card h3 {
     margin: 0px;
     padding: 0px;
     color: #f2a766;
@@ -69,6 +70,6 @@ h2 {
     bottom: 3px;
  }
 
-.card a {
+ .card a {
     text-decoration: none;
  }
