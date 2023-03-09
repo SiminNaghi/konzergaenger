@@ -125,10 +125,6 @@ footer>span {
     width: 100vw;
 }
 
-main h2 {
-    margin-left: 5vw;
-}
-
 @media (min-width: 1051px) {
 
     h1 {
