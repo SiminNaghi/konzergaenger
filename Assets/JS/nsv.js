@@ -12,3 +12,14 @@ for (i = 0; i < coll.length; i++) {
     } 
   });
 }
+
+function Time() {
+    const d = new Date();
+    var h = d.getHours();
+    var m = d.getMinutes();
+    var s = d.getSeconds();
+    return h + ":" + m + ":" + s;
+    alert(document.getElementById("time").innerHTML = Time());
+} 
+
+console.log(Time());
