@@ -16,6 +16,16 @@
    margin: auto;
 }
 
+.artists {
+   margin-top: 5%;
+   margin-bottom: 5%;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+}
+
 h2 {
    color: #f03f2f;
    font-weight:;
