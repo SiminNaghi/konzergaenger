@@ -25,15 +25,12 @@ var zet = document.getElementsByClassName("zet");
 
 function Time() {
     const d = new Date();
-    var e = d.getDate();
+    var e = d.getDay();
     var m = d.getMonth();
-    var y = d.getFullYear();
+    var y = d.getYear();
     var h = d.getHours();
     var m = d.getMinutes();
     var s = d.getSeconds();
     return e + ":" + m + ":" + y + "|" + h + ":" + m + ":" + s;
-    
 } 
-
-
 console.log(Time());

@@ -50,10 +50,6 @@ a:hover {
     border: 1px solid #f03f2f;
     border-radius: 10px;
 }
-.button::after{
-    margin-left: 6px;
-    content: "KV11";
-}
 
 #kw40 {
     font-size: large;
@@ -146,7 +142,6 @@ footer>span, footer>a {
     width: 100vw;
 }
 .input {
-    
     width: 0;
     Height: 0;
     border: none;
