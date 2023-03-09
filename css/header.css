@@ -50,6 +50,10 @@ a:hover {
     border: 1px solid #f03f2f;
     border-radius: 10px;
 }
+.button::after{
+    margin-left: 6px;
+    content: "KV11";
+}
 
 #kw40 {
     font-size: large;
@@ -78,6 +82,16 @@ a:hover {
 
 #kw40 span a:visited {
     color: #190124;
+}
+#mainnav {
+    display: flex;
+    align-items: center;
+    justify-content:  start;
+}
+#kw40 nav .button:hover {
+    background-color: none;
+    color: #f9dede;
+    box-shadow: none;
 }
 
 #kw40 span a:hover {
@@ -124,6 +138,27 @@ footer>span {
 .artists {
     width: 100vw;
 }
+.input {
+    
+    width: 0;
+    Height: 0;
+    border: none;
+    border-radius: 10px;
+    margin: 0;
+    padding: 0 ;
+    font-size: 1rem;
+    background-color: #f9dede;
+    color: #f03f2f;
+    overflow: hidden;
+    transition: 0.2s ease-out;
+}
+.data {
+    cursor: pointer;
+}
+.data.active + input {
+    height: 2em;
+    Width: 9em;
+}
 
 @media (min-width: 1051px) {
 
@@ -147,9 +182,9 @@ footer>span {
         margin-bottom: 2em;
     }
     #kw40 nav .button:hover {
-        background-color: #f03f2f;
+        background-color: none;
         color: #f9dede;
-        box-shadow: 0 0 5px #f03f2f;
+        box-shadow: none;
     }
 }
 

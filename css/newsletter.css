@@ -1,133 +1,126 @@
 body {
-    background-color: #190124;
+  background-color: #190124;
 }
 
 header {
-    background-color: #230033;
+  background-color: #230033;
 }
 
 main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    margin-top: 4em;
-    gap: 3em;
-
+  margin-top: 4em;
+  gap: 3em;
 }
 
 h2 {
-    text-align: center;
+  text-align: center;
 
-    color: #f03f2f;
+  color: #f03f2f;
 }
 
 h3 {
-    margin-left: 60px;
-
+  margin-left: 60px;
 }
 
 p {
-
-    text-align: center;
-    line-height: 100%;
-    max-width: 870px;
-    padding: 10px;
-
-
+  text-align: center;
+  line-height: 100%;
+  max-width: 870px;
+  padding: 10px;
 }
 
 .form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 65vw;
-    min-width: 491px;
-    border: 3px solid #d54723;
-    border-radius: 5px;
-    background-color: #F2A766;
-    gap: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 65vw;
+  min-width: 491px;
+  border: 3px solid #d54723;
+  border-radius: 5px;
+  background-color: #f2a766;
+  gap: 10px;
 }
-.form div{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
+.form div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
 }
-
 
 .form a:link {
-    color: #f9dede;
+  color: #f9dede;
 }
 
 .form a:visited {
-    color: #f9dede;
+  color: #f9dede;
 }
 
 .form a:hover {
-    box-shadow: 0 0 10px #f9dede;
+  box-shadow: 0 0 10px #f9dede;
 }
 
 label,
 input {
-    display: inline;
-    color: #f03f2f;
+  display: inline;
+  color: #f03f2f;
 }
 
 p :nth-of-type(3) {
-    color: #f03f2f;
-    margin-left: 0px;
+  color: #f03f2f;
+  margin-left: 0px;
 }
 
 input {
-    border: 2px solid #f03f2f;
-    border-radius: 3px;
-    background-color: #f9dede;
-    /* width: 50%; */
+  border: 2px solid #f03f2f;
+  border-radius: 3px;
+  background-color: #f9dede;
+  /* width: 50%; */
 }
 
 .text {
-    width: auto;
+  width: auto;
 }
 
 textarea {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
 input,
 select,
 textarea {
-    font-size: inherit;
-    font-family: inherit;
-    color: #373332;
-    background-color: #F2F2F2;
+  font-size: inherit;
+  font-family: inherit;
+  color: #373332;
+  background-color: #f2f2f2;
 }
 
 .demoform input[type="text"],
 .demoform input[type="email"],
 .demoform textarea {
-    width: 100%;
-    min-width: 100%;
-    box-sizing: border-box;
-    padding: 4px;
-    outline: none;
+  width: 100%;
+  min-width: 100%;
+  box-sizing: border-box;
+  padding: 4px;
+  outline: none;
 }
 
 input[type="submit"] {
-    font-family: sans-serif;
-    color: #f03f2f;
+  font-family: sans-serif;
+  color: #f03f2f;
 }
 
 li {
-    margin-left: 60px;
-    margin-right: 60px;
+  margin-left: 60px;
+  margin-right: 60px;
 }
 
 .email {
-    padding-top: 10px;
+  padding-top: 10px;
 }
 
 .danke {
-    padding: 10px;
+  padding: 10px;
 }

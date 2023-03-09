@@ -12,14 +12,28 @@ for (i = 0; i < coll.length; i++) {
     } 
   });
 }
+var date = document.getElementsByClassName("data");
+
+
+  date[0].addEventListener("click", function() {
+    this.classList.toggle("active");
+    
+    
+  });
+
+var zet = document.getElementsByClassName("zet"); 
 
 function Time() {
     const d = new Date();
+    var e = d.getDate();
+    var m = d.getMonth();
+    var y = d.getFullYear();
     var h = d.getHours();
     var m = d.getMinutes();
     var s = d.getSeconds();
-    return h + ":" + m + ":" + s;
-    alert(document.getElementById("time").innerHTML = Time());
+    return e + ":" + m + ":" + y + "|" + h + ":" + m + ":" + s;
+    
 } 
+
 
 console.log(Time());
