@@ -13,6 +13,7 @@ main {
     flex-direction: column;
     margin-top: 4em;
     gap: 3em;
+    padding-bottom: 10px;
 
 }
 
@@ -45,7 +46,8 @@ p {
     border-radius: 5px;
     background-color: #F2A766;
     gap: 10px;
-    min-width: 520px;
+
+
 }
 
 
@@ -139,4 +141,8 @@ li {
 
 .ruckmeldung {
     padding-top: 10px;
+}
+
+#email {
+    padding: 3px;
 }
