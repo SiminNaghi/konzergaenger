@@ -16,21 +16,17 @@ var date = document.getElementsByClassName("data");
 
 
   date[0].addEventListener("click", function() {
-    this.classList.toggle("active");
-    
-    
-  });
+    this.classList.toggle("active");});
 
-var zet = document.getElementsByClassName("zet"); 
 
-function Time() {
-    const d = new Date();
-    var e = d.getDay();
-    var m = d.getMonth();
-    var y = d.getYear();
-    var h = d.getHours();
-    var m = d.getMinutes();
-    var s = d.getSeconds();
-    return e + ":" + m + ":" + y + "|" + h + ":" + m + ":" + s;
-} 
-console.log(Time());
+    const today = new Date();
+    const yyyy = today.getFullYear();
+    let MM = today.getMonth() + 1; // Months start at 0!
+    let dd = today.getDate();
+    
+    if (dd < 10) dd = '0' + dd;
+    if (MM < 10) MM = '0' + MM;
+    
+    const formattedToday = yyyy + '-' + MM + '-' + dd;
+    document.getElementById('data').value = formattedToday;
+    console.log(formattedToday);
