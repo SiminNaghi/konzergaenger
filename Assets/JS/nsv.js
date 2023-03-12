@@ -27,3 +27,10 @@ if (dd < 10) dd = "0" + dd;
 if (MM < 10) MM = "0" + MM;
 
 document.getElementById("data").value = yyyy + "-" + MM + "-" + dd;
+
+
+var map = document.getElementById("maps").value;
+    maps[0].addEventListener("click", function () {
+      getElementById("mapss").classList.toggle("active");
+});
+ 

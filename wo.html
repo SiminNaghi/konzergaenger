@@ -8,13 +8,12 @@
     <link rel="stylesheet" href="./assets/slick/slick.css" />
     <link rel="stylesheet" href="./css/header.css" />
     <link rel="stylesheet" href="./css/map.css" />
-    <script type="module" src="./Assets/JS/map.js"></script>
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
-    <script
-      src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap"
-      async
-      defer
-    ></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+     integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+     crossorigin=""/>
+     <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+     integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+     crossorigin=""></script>
   </head>
   <body>
     <header>
@@ -35,8 +34,8 @@
               placeholder="dd-mm-yyyy"
               id="data"
               value=""
-              min="1997-01-01"
-              max="2030-12-31"
+              min="2023-01-01"
+              max="2023-12-31"
             />
           </nav>
         </section>
@@ -106,5 +105,13 @@
       });
     </script>
     <script src="./Assets/JS/nsv.js"></script>
+    
+    <script type="module" src="./Assets/JS/map.js"></script>
+    <!-- <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap"
+      async
+      defer
+    ></script> -->
   </body>
 </html>

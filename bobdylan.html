@@ -15,16 +15,19 @@
         <nav>
           <a href="./index.html"><ion-icon name="home-outline"></ion-icon></a>
           <a href="./wo.html"><ion-icon name="location-outline"></ion-icon></a>
-          <span id="time"><ion-icon name="calendar-outline"></ion-icon></span>
-          <input
-            type="date"
-            name="begin"
-            class="input"
-            id="data"
-            value=""
-            min="2023-01-01"
-            max="2030-12-31"
-          />
+          <span class="data"
+              ><ion-icon name="calendar-outline"></ion-icon
+            ></span>
+            <input
+              type="date"
+              name="begin"
+              class="input"
+              placeholder="dd-mm-yyyy"
+              id="data"
+              value=""
+              min="2023-01-01"
+              max="2023-12-31"
+            />
         </nav>
       </section>
 
@@ -61,7 +64,7 @@
         <h3>am 13., 14. und 15.03.2023 in der Verti Music Hall</h3>
         <p>Einlass 18.30 Uhr, Beginn 20.00 Uhr</p>
       </section>
-
+      <div id="maps" class="maps"></div>
       <div class="image">
         <img src="./bilder/bobdylan.jpg" alt="Bob Dylan" />
       </div>
@@ -307,5 +310,6 @@
       });
     </script>
     <script src="./Assets/JS/nsv.js"></script>
+    <script src="./Assets/JS/map.js"></script>
   </body>
 </html>
