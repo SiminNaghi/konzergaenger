@@ -1,34 +1,49 @@
-# konzertgaenger
+# Abschlussprojekt des Moduls "User Interface Basics" - Gruppenarbeit
 
-## responsiveness -
+## Teammitglieder
 
-## responsive navigation -
+- Przemyslaw Krol
+- Marian Dresca
+- Simin Naghi
 
-## navigation animieren
+## Projekt: Konzertgaenger.in
 
-## farben -
+Eine Seite für Konzertfans - Zur Vor- und Nachbereitung von Konzertbesuchen mit Links zu allen wichtigen Artist-Infos.
 
-## aus box-model, flex-box machen
+## Ziele
 
-## artist-site wird zu grid mit cards -
+Unsere Hauptziele für das Projekt Konzertgaenger.in waren:
 
-## fremde links mit target-blanks versehen
+1. **Responsivität**: Wir haben sichergestellt, dass die Website auf verschiedenen Geräten und Bildschirmgrößen gut funktioniert.
 
-## datum aktualisieren
+2. **Farben/Design**: Ein ansprechendes Farbschema und Gesamtdesign wurde für die Website entwickelt.
 
-## formulare überarbeiten -> home button
+3. **Navigation überarbeiten**: Die Website-Navigation wurde verbessert, um eine bessere Benutzererfahrung zu bieten.
 
-## logo -
+## Aufgabenteilung
 
-## slogan->banner
+Unser Team hat die folgenden Aufgaben zur erfolgreichen Umsetzung des Projekts übernommen:
 
-## Lili
-- 'farbe'
-- 'logo'
+- **Pemo**:
+  - Verantwortlich für die Responsivität der Unterseiten.
 
-## Pemo 
-- 'resposive'
-- 'responsive navigation'
+- **Marian**:
+  - Zuständig für das Git-Management und die Verwaltung von Versionskontrollen.
+  - Verantwortlich für die Responsivität des Headers, inklusive JavaScript-Integration.
 
-## Simin
-- 'artist-site wird zu grid mit cards'
+- **Simin**:
+  - Übernahm das Projektmanagement und koordinierte die Arbeit des Teams.
+  - Verantwortlich für die Responsivität der Artist-Seiten (Grid-Layout).
+  - Erstellte die Präsentation des Projekts.
+
+## Projektfortschritt
+
+- Responsivität der Unterseiten: Abgeschlossen (Pemo).
+- Git-Management und Versionskontrolle: Abgeschlossen (Marian).
+- Responsivität des Headers: Abgeschlossen (Marian).
+- Projektmanagement und Teamkoordination: Abgeschlossen (Simin).
+- Responsivität der Artist-Seiten (Grid-Layout): Abgeschlossen (Simin).
+- Präsentation des Projekts: Abgeschlossen (Simin).
+
+
+
